@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Stick&family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" async></script>
+    <title>Maching Game</title>
+</head>
+
+<body>
+    <h1 class="page-title">Think&#128161;Match </h1>
+    <div class="overlay-text visible">
+        Click to Start
+    </div>
+    <div id="game-over-text" class="overlay-text">
+        GAME OVER
+        <span class="overlay-text-small">Click to Restart</span>
+    </div>
+    <div id="victory-text" class="overlay-text">
+        VICTORY
+        <span class="overlay-text-small">Click to Restart</span>
+    </div>
+
+    <div class="game-container">
+        <div class="game-info-container">
+            <div class="game-info">
+                Time:<span id="time-remaining">60</span>
+            </div>
+            <div class="game-info">
+                Flips:<span id="flips">0</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="joker" src="joker.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Ace.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="joker" src="joker.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Ace.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="joker" src="joker.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Star.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="joker" src="joker.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Star.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="joker" src="joker.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Club.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="joker" src="joker.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Club.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="joker" src="joker.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Heart.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="joker" src="joker.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Heart.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="joker" src="joker.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Skull.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="joker" src="joker.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Skull.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="joker" src="joker.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Cream.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="joker" src="joker.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Cream.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="joker" src="joker.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Ghost.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="joker" src="joker.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Ghost.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="joker" src="joker.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Flame.png">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face">
+                <img class="joker" src="joker.png">
+            </div>
+            <div class="card-front card-face">
+                <img class="card-value" src="Flame.png">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
